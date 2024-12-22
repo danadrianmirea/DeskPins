@@ -1,12 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dphook", "dphook\dphook.vcproj", "{3B89CE14-1552-4D18-83DD-934E7E7CB547}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dphook", "dphook\dphook.vcxproj", "{3B89CE14-1552-4D18-83DD-934E7E7CB547}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "deskpins", "deskpins.vcproj", "{54275C0E-B43E-4C6F-83DA-565793AFE930}"
-	ProjectSection(ProjectDependencies) = postProject
-		{3B89CE14-1552-4D18-83DD-934E7E7CB547} = {3B89CE14-1552-4D18-83DD-934E7E7CB547}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "deskpins", "deskpins.vcxproj", "{54275C0E-B43E-4C6F-83DA-565793AFE930}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB299558-93BF-4EC9-BD80-AF292896CD03}
 	EndGlobalSection
 EndGlobal
